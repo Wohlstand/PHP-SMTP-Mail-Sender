@@ -1,0 +1,16 @@
+<?php
+
+$mailsetup['server']   = "smtp.example.ru";
+$mailsetup['port']     = 25;
+$mailsetup['login']    = "example-robot@example.ru";
+$mailsetup['password'] = "super-secret-password";
+
+$mailsetup['namefrom'] = "Examlpe Robot";
+$mailsetup['sendfrom'] = "example-robot@example.ru";
+
+$mailsetup['replyname'] = $mailsetup['namefrom'];
+$mailsetup['replymail'] = $mailsetup['sendfrom'];
+
+$mailsetup['nameto']   = "Example Recepient";
+$mailsetup['sendto']   = "default-recepient@example.ru";
+
